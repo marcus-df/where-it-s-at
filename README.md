@@ -1,4 +1,5 @@
 # Where it's at
 
-Created as a group project together with @markus-jarelov
+Group project made with React together with @markus-jarelov
+
 Live site: coming soon.
