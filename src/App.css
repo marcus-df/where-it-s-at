@@ -1,0 +1,84 @@
+:root {
+  --main-bg-color: #231F42;
+  --teal: #37AEAB;
+  --pink: #F56B9A;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading,
+.subheading {
+  font-family: 'Sansita', sans-serif;
+  font-style: italic;
+  color: var(--pink);
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+.subheading {
+  font-size: 2rem;
+  margin: 0.5rem 0.5rem 0;
+}
+
+.name,
+.location,
+.time,
+.info-teal,
+.info-teal-bold,
+.cta_btn {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.name,
+.time,
+.cta_btn {
+  font-weight: 600;
+  color: #D0D0D0;
+}
+
+.name,
+.price_big {
+  text-shadow: 2px 2px 0px var(--pink);
+  color: white;
+}
+
+.name {
+  margin-bottom: 0.5rem;
+}
+
+.info-teal {
+  font-weight: 400;
+  color: var(--teal);
+}
+
+.info-teal-bold {
+  font-weight: 700;
+  color: var(--teal);
+}
+
+.location {
+  font-weight: 200;
+  font-style: italic;
+  color: white;
+}
+
+.cta_btn {
+  background-color: var(--teal);
+  border: none;
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: 1.3rem 5rem;
+  font-size: 2rem;
+}
+
+.cta_btn:hover {
+  background-color: rgba(50, 163, 159, 0.9);
+}

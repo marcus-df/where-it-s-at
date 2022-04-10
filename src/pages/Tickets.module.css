@@ -1,0 +1,139 @@
+@import url('../App.css');
+
+* {
+    transition: 0.25s ease-in-out;
+    box-sizing: border-box;
+}
+
+:root {
+    --gradient-color: #F56B9A;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background: var(--main-bg-color);
+    background: linear-gradient(0deg, rgba(245, 107, 154, 0) 50%, rgba(245, 107, 154, 0.85) 100%);
+}
+
+.ticket_container {
+    height: 40rem;
+    width: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.ticket {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket:hover {
+    cursor: pointer;
+}
+
+.ticket:first-of-type {
+    z-index: 3;
+    top: 35px;
+    width: 400px;
+    background-color: #fff;
+}
+
+.ticket:nth-of-type(1):hover {
+    background-color: #d6d6d6;
+}
+
+.ticket:nth-of-type(2) {
+    z-index: 2;
+    top: 17.5px;
+    width: 385px;
+    background-color: #e7d1de;
+}
+
+.ticket:nth-of-type(2):hover {
+    background-color: #d3bcc9;
+}
+
+.ticket:nth-of-type(3) {
+    z-index: 1;
+    width: 370px;
+    background-color: #cba0ba;
+}
+
+.ticket:nth-of-type(3):hover {
+    background-color: #b38ea4;
+}
+
+.cardHead {
+    border-bottom: thin dashed rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+}
+
+.cardHead h3 {
+    margin: 1rem 0 2rem 0;
+}
+
+.light_bold,
+.dark_bold {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+.light_bold {
+    color: rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.dark_bold {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+}
+
+.location {
+    padding: 1rem;
+}
+
+.when {
+    display: flex;
+    flex-direction: row;
+}
+
+.when div {
+    flex: 1 1 33%;
+    padding: 1rem;
+}
+
+.when div:nth-child(1),
+.when div:nth-child(3) {
+    border-top: thin dashed rgba(0, 0, 0, 0.4);
+    border-bottom: thin dashed rgba(0, 0, 0, 0.4);
+}
+
+.when div:nth-child(2) {
+    border: thin dashed rgba(0, 0, 0, 0.4);
+}
+
+.cardFooter {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.cardFooter p {
+    text-align: left;
+    margin: 0 0;
+}
+
+.cardFooter svg {
+    margin: 0 auto;
+    flex: 1 0 auto;
+}

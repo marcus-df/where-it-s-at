@@ -1,0 +1,52 @@
+@import url('../App.css');
+
+.container,
+.date,
+.meta {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.search,
+.card {
+    width: 380px;
+    box-sizing: border-box;
+}
+
+.search {
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #393555;
+    color: white;
+}
+
+.card {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.date {
+    justify-content: center;
+    font-weight: 700;
+    height: 5.5rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.meta {
+    justify-content: space-between;
+}

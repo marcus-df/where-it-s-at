@@ -1,0 +1,18 @@
+@import url('../App.css');
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 95vh;
+}
+
+.tagline {
+    font-style: italic;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+}

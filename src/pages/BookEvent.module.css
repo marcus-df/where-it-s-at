@@ -1,0 +1,70 @@
+@import url('../App.css');
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 95vh;
+}
+
+.info {
+    font-style: italic;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.tickets {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--pink);
+    padding: 0;
+    border-radius: 5px;
+    margin: 4rem 0;
+}
+
+.price_big {
+    color: white;
+    text-shadow: 2px 2px 0px var(--pink);
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.ticket_amount {
+    display: flex;
+    flex-direction: row;
+}
+
+.ticket_amount span {
+    flex: 1 1 50%;
+    font-size: 2rem;
+    color: white;
+    padding: .5rem 3rem;
+    border-top: 1px solid var(--pink);
+}
+
+button {
+    padding: 0 2rem;
+    background-color: transparent;
+    border: 1px solid var(--pink);
+    border-bottom: none;
+    color: var(--pink);
+    font-size: 2.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.LB {
+    border-left: none;
+}
+
+.RB {
+    border-right: none;
+}
