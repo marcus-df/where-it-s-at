@@ -2,4 +2,4 @@
 
 Group project made with React together with @markus-jarelov
 
-Live site: coming soon.
+Live site: https://where-its-at-f3076.web.app/
